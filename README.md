@@ -1,12 +1,12 @@
-## Final project for the DevOps upskill program
-# Lichess dev environment
+# Final project for the DevOps upskill program
+## Lichess dev environment
 
 Done so far:
-lila - front end container along with a listener service
-mongo - simple DB container
-redis - simple container used for cache
+- lila - front end container along with a listener service
+- mongo - simple DB container
+- redis - simple container used for cache
 
-# Notes:
+## Notes:
 
 Error in the original Lichess repo:
 ./lila/project/Dependencies.scala requires "scalachess" "15.7.4", which does not yet exist. Has to be modified by hand to 15.7.3 in the file, otherwise the sbt run fails.
